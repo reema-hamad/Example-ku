@@ -6,5 +6,5 @@ metadata:
     type: frontend
 spec:
   containers:
-    - name: sample-node-app
+    - name: sample-node-app2
       image: rmrmhm23/runway
