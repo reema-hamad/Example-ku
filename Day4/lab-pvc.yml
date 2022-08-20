@@ -5,8 +5,8 @@ metadata:
     lab-pvc
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 2Gi
   storageClassName: local-path
